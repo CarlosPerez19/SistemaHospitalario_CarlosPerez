@@ -1,5 +1,6 @@
 import javax.swing.*;
 import Hospital.Login;
+import Hospital.Registro_pacientes;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +11,6 @@ public class Main {
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
-
 
     }
 }

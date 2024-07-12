@@ -39,7 +39,14 @@ public class Login {
 
                         JOptionPane.showMessageDialog(null, "Usuario Encontrado");
 
-                        // Crear Frame
+                       JFrame frame = new JFrame();
+                       frame.setContentPane(new Registro_pacientes().mainPanel);
+                       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                       frame.pack();
+                       frame.setLocationRelativeTo(null);
+                       frame.setVisible(true);
+
+
                     } else {
                         JOptionPane.showMessageDialog(null, "Usuario no encontrado");
                         JOptionPane.showMessageDialog(null, "Ingrese credenciales validas");
